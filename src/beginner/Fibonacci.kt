@@ -20,7 +20,6 @@ fun fibonacciRecursive(n:Int):Int{
 fun main(){
     println("Iterative Solution:")
     println(fibonacci(10))
-    println("/n")
     println("Recursive Solution:")
     val fibonacciList= mutableListOf<Int>()
     for (i in 0 until 10){

@@ -1,4 +1,5 @@
 package beginner
+//girilen sayı kadar fibonacci serisi yazdırır.
 //Iterative solution
 fun fibonacci(n:Int):List<Int>{
     val rootList= mutableListOf<Int>(0,1)
